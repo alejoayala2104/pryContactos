@@ -1,0 +1,75 @@
+@font-face {
+	fx-font-family: 'Roboto Regular';
+    src: url(Roboto-Regular.ttf);
+}
+
+#root{
+	-fx-background-color: white;	
+}
+
+.label{
+	-fx-font-family: 'Roboto Regular';
+	-fx-font-size:13;
+}
+
+.button{
+	-fx-font-family: 'Roboto Regular';
+	-fx-background-color: #3B84CD;
+	-fx-text-fill: white;
+	-fx-font-size:13;
+}
+.button:hover{
+	-fx-font-family: 'Roboto Regular';
+	-fx-background-color: #87ACE6;
+	-fx-text-fill: white;
+	-fx-font-size:13;
+}
+.text-field{
+	-fx-font-family: 'Roboto Regular';
+	-fx-border-color: #87ACE6;
+	-fx-border-radius: 3;
+	
+}
+
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: #1E316D;
+    -fx-text-fill: white;
+}
+.list-cell {
+	-fx-text-fill: black;
+	-fx-font-size:13;
+}
+.list-cell:odd {
+	-fx-background-color: white;
+}
+.list-cell:even {
+	-fx-background-color: #E7E7F1;
+}
+.list-cell:filled:hover { 
+    -fx-background-color: #3B84CD;
+    -fx-text-fill: white;
+}
+.list-view{
+	-fx-font-family: 'Roboto Regular';
+	-fx-border-color: #87ACE6;
+}
+
+.check-box .label{
+	-fx-font-family: 'Roboto Regular';
+	-fx-font-size:13;
+}
+.check-box .box {
+	-fx-background-color: white;
+	-fx-border-color:#87ACE6;
+	-fx-border-radius:3px;
+}
+
+.check-box:selected .mark {
+	-fx-background-color: white;
+}
+
+.check-box:selected .box {
+	-fx-background-color: #3B84CD;
+}
+
